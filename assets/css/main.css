@@ -1,0 +1,48 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.content .calc {
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+.content .calc i {
+  font-size: 30px;
+}
+.content .calc span {
+  font-size: 40px;
+}
+.content .inp {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.content .inp input {
+  width: 250px;
+}
+.content .button-calc {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.content .button-calc button {
+  padding: 5px 55px;
+}
+.content .button-calc button span {
+  font-size: large;
+  color: #fff;
+}
+.content .result {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.content .result input {
+  width: 250px;
+}/*# sourceMappingURL=main.css.map */
